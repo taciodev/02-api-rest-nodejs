@@ -1,6 +1,6 @@
 // import crypto from 'node:crypto'
 import fastify from 'fastify'
-import { env } from './.env/index'
+import { env } from './env/index'
 import { transactionsRoutes } from './routes/transactions'
 
 const app = fastify()
